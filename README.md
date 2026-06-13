@@ -12,9 +12,9 @@ medical-qwen2.5-7b/
 ├── data                          # ChatML格式医疗微调数据集
 │        
 ├── code/
-│   ├── train_lora.py             # LoRA微调完整Python代码
+│   ├── train.py                  # LoRA微调完整Python代码
 │   ├── test.py                   #  LoRA 模型本地对话测试代码
-│   ├── merge_lora_to_full.py     # LoRA合并完整HF模型代码
+│   ├── merge.py                  # LoRA合并完整HF模型代码
 ├── deploy/
 │   ├── convert_hf_gguf.py        # HF转GGUF调用代码
 │   ├── quantize_model.py         # 调用llama-quantize量化代码
