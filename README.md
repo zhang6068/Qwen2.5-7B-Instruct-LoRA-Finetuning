@@ -9,8 +9,8 @@
 ```
 medical-qwen2.5-7b/
 ├── README.md                     # 项目总文档（本文）
-├── data/
-│   └── medical_train.jsonl      # ChatML格式医疗微调数据集
+├── data                          # ChatML格式医疗微调数据集
+│        
 ├── code/
 │   ├── train_lora.py             # LoRA微调完整Python代码
 │   ├── test.py                   #  LoRA 模型本地对话测试代码
